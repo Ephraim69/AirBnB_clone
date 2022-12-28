@@ -8,9 +8,9 @@ import unittest
 import uuid
 import time
 
+
 class TestBaseModel(unittest.TestCase):
     """Test Cases for the BaseModel Class"""
-
 
     def test_datetime(self):
         """"Tests if updated_at and created_at are
@@ -34,4 +34,3 @@ class TestBaseModel(unittest.TestCase):
         time.sleep(0.5)
         b.save()
         self.assertNotEqual(b.created_at, b.updated_at)
-
