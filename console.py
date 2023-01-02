@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import cmd
 
+
 class HBNBCommand(cmd.Cmd):
     """Command line program"""
     prompt = "(hbnb) "
@@ -15,6 +16,7 @@ class HBNBCommand(cmd.Cmd):
         """Exits the program.
         """
         return True
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
