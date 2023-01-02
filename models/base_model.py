@@ -57,9 +57,3 @@ class BaseModel():
         self.created_at = self.created_at.strftime('%Y-%m-%dT%H:%M:%S.%f')
         self.updated_at = self.updated_at.strftime('%Y-%m-%dT%H:%M:%S.%f')
         return my_dict
-
-
-print(datetime, type(datetime))
-var = datetime.now()
-print(datetime.now(), type(var))
-print(datetime.now, type(datetime.now))
