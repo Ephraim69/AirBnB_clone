@@ -19,6 +19,11 @@ class HBNBCommand(cmd.Cmd):
         """
         return True
 
+    def emptyline(self):
+        """Doesn't do anything on ENTER.
+        """
+        pass
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
