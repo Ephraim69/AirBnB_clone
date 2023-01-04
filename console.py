@@ -225,6 +225,7 @@ class HBNBCommand(cmd.Cmd):
         """Counts the instances of a class.
         """
         words = line.split(' ')
+        print(words)
         if not words[0]:
             print("** class name missing **")
         elif words[0] not in storage.classes():
